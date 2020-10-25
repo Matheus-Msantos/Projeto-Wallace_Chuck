@@ -1,0 +1,121 @@
+/*Classes de cores*/
+:root{
+    --black: #000000;
+    --black-alpha: rgba(0, 0, 0, .1);
+    --gray: #9b9999;
+    --yellow: #fdbe02;
+}
+
+.bg-dark{
+    background-color: var(--black) !important;
+}
+
+.bg-blackTransparent{
+    background-color: var(--black-alpha) ;
+}
+
+
+/*MENU*/
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+}
+
+.nav-icon{
+    color: var(--black);
+}
+
+.nav-active{
+    border-bottom: 2px solid var(--gray);
+}
+
+.navbar-brand{
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+/*MAIN*/
+
+.carousel-control-prev{
+    color: var(--black);
+}
+
+.carousel-control-prev:hover{
+    color: var(--gray);
+}
+
+.carousel-control-next{
+    color: var(--black);
+}
+
+.carousel-control-next:hover{
+    color: var(--gray);
+}
+
+.card{
+    max-width: 540px;
+    border: none;
+}
+
+.card-sobre{
+    
+    border-radius: 2px;
+}
+
+.btn{
+    background-color: var(--gray);
+}
+
+.btn:hover{
+    background-color: var(--black) !important;
+}
+
+.title-section{
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.img-depoimento{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.link-depoimentos{
+    color: var(--black);
+    text-decoration: none !important;
+}
+
+.link-depoimentos:hover{
+    color: var(--gray);
+}
+
+#mais{
+    display: none;
+}
+
+#btnLeiaMais{
+    outline: none;
+    border: none;
+}
+
+#btnLeiaMais:hover{
+    background-color: var(--black-alpha);
+    color: black !important;
+    border-radius: 10px;
+}
+
+/*FOOTER*/
+.icon-footer{
+    color: var(--black);
+}
+
+.icon-footer:hover{
+    color: var(--gray); 
+}
+
+/*HOMENAGEM*/
+
+.line-top{
+    border: 1px solid black;
+}
